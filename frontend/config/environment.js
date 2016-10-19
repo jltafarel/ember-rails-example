@@ -43,7 +43,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.apiBaseUrl = 'https://murmuring-spire-81606.herokuapp.com/api';
   }
 
   return ENV;
